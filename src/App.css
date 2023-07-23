@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-div {
+  background: #609AC0 ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.child-div {
+  background : white;
+  height: 70%;
+  width: 40%;
+  border-radius: 12px 12px 12px 12px;
+  margin-top: 10%;
+  
+}
+
+h1{
+
+  margin-top:10%;
+  background-color: blueviolet;
+  text-align: center;
+  color: aliceblue;
+  font-style: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 40px;
+  font-size: 35px;
+}
+
+input {
+  border:none;
+  text-align: center;
+  border-bottom: 3px solid blueviolet ;
+  padding: 2rem 1.2rem;
+  margin-top: 50px;
+  margin-left: 60px;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+
+}
+
+input,
+input:focus,
+input:active,
+input:active:focus {
+  padding: 2.3rem 1.5rem;
+  outline: none;
+}
+
+button{
+  height: 40px;
+  width: 40px;
+  margin: 5px 5px 5px 0;
+  border-radius: 50px 50px 50px 50px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: none;
+  display: inline;
+
+  font-size: 20px;
+
+}
+
+ol{
+  margin-top : 30px;
+}
+
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight : 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color : blueviolet;
+  text-transform: capitalize;
+}
+
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .fa-times {
+
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo_style .fa-times:hover{
+
+  color: crimson;
+
+}
+
+.todo_style .fa-times :hover .list_style {
+  color: crimson;
+}
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 55%;
+  }
+
+  .todo_style .fa-times {
+    margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+
+    margin-left: 5px;
+    min-height: 40px;
+    width: 40px;
+    color: aliceblue;
+    font-size: 30px;
+  }
+
+
+
+}
+
+
